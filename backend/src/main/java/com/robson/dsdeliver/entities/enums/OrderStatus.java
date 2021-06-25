@@ -1,4 +1,4 @@
-package com.robson.dsdeliver.entities;
+package com.robson.dsdeliver.entities.enums;
 
 public enum OrderStatus {
 

@@ -1,4 +1,4 @@
-package com.robson.dsdeliver.entities.enums;
+package com.robson.dsdeliver.entities;
 
 import java.io.Serializable;
 import java.time.Instant;
@@ -14,8 +14,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
-import com.robson.dsdeliver.entities.OrderStatus;
-import com.robson.dsdeliver.entities.Product;
+import com.robson.dsdeliver.entities.enums.OrderStatus;
 
 @Entity
 @Table(name = "tb_order")

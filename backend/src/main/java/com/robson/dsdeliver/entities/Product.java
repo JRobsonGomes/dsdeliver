@@ -29,7 +29,7 @@ public class Product implements Serializable {
 		this.name = name;
 		this.price = price;
 		this.description = description;
-		ImageUri = imageUri;
+		this.ImageUri = imageUri;
 	}
 
 	public Long getId() {
