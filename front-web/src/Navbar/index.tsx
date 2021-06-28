@@ -1,7 +1,7 @@
 import './styles.css';
 import { ReactComponent as Logo } from './logo.svg';
 
-const NavBar = () => {
+const Navbar = () => {
     return (
         <nav className="main-navbar">
             <Logo />
@@ -10,4 +10,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar;
+export default Navbar;
