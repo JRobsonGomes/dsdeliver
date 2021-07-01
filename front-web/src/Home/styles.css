@@ -1,6 +1,6 @@
 .home-container {
-  padding-top: 100px;
-  /* height: calc(100vh - 254px); */
+  padding-top: 2rem;
+  height: calc(100vh - 140px);
 }
   
 .home-container h1 {
@@ -43,4 +43,9 @@
   font-size: 24px;
   letter-spacing: -0.015em;
   color: #FFF;
+}
+
+.home-container svg {
+  width: 539px;
+  height: 400px;
 }
